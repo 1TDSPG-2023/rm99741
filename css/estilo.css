@@ -5,14 +5,26 @@
 *{
     margin: 0;
     padding: 0;
+
 }
 
 /* 
     vw=view widht
     vh= view height
 */
-
-footer {
-    display: flex;
+html{
+    font-size: 62.7%;
 }
 
+.tit-sec {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.conteudo {
+    font-size: 2rem;
+}
+
+.conteudo >div {
+    font-size: 2rem;
+}
