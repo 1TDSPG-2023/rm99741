@@ -63,24 +63,27 @@
         </nav>
 
         <div>
-            <form action="index.html" method="get" onsubmit="return false">
+            <form action="" method="" onsubmit="return false">
                 <fieldset>
-                    <legend>Contato</legend>
+                    <legend>Login</legend>
                     <div>
-                        <label for="">Nome</label>
-                        <input type="text" name="txtNm" id="idNm" placeholder="Nome">
-                    </div>
-
-                    <div>
-                        <label for="">Email</label>
-                        <input type="email" name="txtEmail" id="idEmail" placeholder="Email">
+                        <label for="idUser">Usuário</label>
+                        <input type="text" name="txtUser" id="idUser" placeholder="Usuário">
                     </div>
                     <div>
-                        <input type="submit" value="Enviar">
+                        <label for="idPass">Senha</label>
+                        <input type="password" name="txtPass" id="idPass" placeholder="Senha">
+                    </div>
+                    <div>
+                        <label for="idGravaDados">Gravar Dados</label>
+                        <input type="checkbox" name="chkDta" id="idGravaDados" value="ok" placeholder="Usuário">
+                    </div>
+                    <div>
+                        <button type="submit" value="Login"></button>
                     </div>
                 </fieldset>
-
             </form>
+     
         </div>
 
     </footer>
